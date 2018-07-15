@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1512A6BFBCDD31079AD3605E /* Pods_DHBW_Seminar_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EC6213D2B0FA3B7C767CF5 /* Pods_DHBW_Seminar_App.framework */; };
 		F665495F20FB584B003A391C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665495E20FB584B003A391C /* AppDelegate.swift */; };
 		F665496120FB584B003A391C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665496020FB584B003A391C /* ViewController.swift */; };
 		F665496420FB584B003A391C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665496220FB584B003A391C /* Main.storyboard */; };
 		F665496620FB584B003A391C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F665496520FB584B003A391C /* Assets.xcassets */; };
 		F665496920FB584B003A391C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665496720FB584B003A391C /* LaunchScreen.storyboard */; };
+		F665497820FB584B003A391C /* TabletUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665497720FB584B003A391C /* TabletUI.storyboard */; };
+		F665498C20FB584B003A391C /* SentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F665498B20FB584B003A391C /* SentimentClassifier.mlmodel */; };
+		F665498E20FB584B003A391C /* SentimentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665498D20FB584B003A391C /* SentimentProvider.swift */; };
+		F665499920FB584B003A391C /* SummaryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665499820FB584B003A391C /* SummaryProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6EC6213D2B0FA3B7C767CF5 /* Pods_DHBW_Seminar_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHBW_Seminar_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF651C0ECEF04DAE65B64372 /* Pods-DHBW Seminar App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBW Seminar App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHBW Seminar App/Pods-DHBW Seminar App.debug.xcconfig"; sourceTree = "<group>"; };
+		E22293C790A40F793A1C4F7D /* Pods-DHBW Seminar App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBW Seminar App.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHBW Seminar App/Pods-DHBW Seminar App.release.xcconfig"; sourceTree = "<group>"; };
 		F665495B20FB584B003A391C /* DHBW Seminar App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DHBW Seminar App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F665495E20FB584B003A391C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F665496020FB584B003A391C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		F665496520FB584B003A391C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F665496820FB584B003A391C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F665496A20FB584B003A391C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F665497720FB584B003A391C /* TabletUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabletUI.storyboard; sourceTree = "<group>"; };
+		F665498220FB584B003A391C /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		F665498820FB584B003A391C /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		F665498B20FB584B003A391C /* SentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SentimentClassifier.mlmodel; sourceTree = "<group>"; };
+		F665498D20FB584B003A391C /* SentimentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentProvider.swift; sourceTree = "<group>"; };
+		F665499820FB584B003A391C /* SummaryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1512A6BFBCDD31079AD3605E /* Pods_DHBW_Seminar_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A27D0556A4864E8E9478CB2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF651C0ECEF04DAE65B64372 /* Pods-DHBW Seminar App.debug.xcconfig */,
+				E22293C790A40F793A1C4F7D /* Pods-DHBW Seminar App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCC693E4517711C304080642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC6213D2B0FA3B7C767CF5 /* Pods_DHBW_Seminar_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F665495220FB584B003A391C = {
 			isa = PBXGroup;
 			children = (
 				F665495D20FB584B003A391C /* DHBW Seminar App */,
 				F665495C20FB584B003A391C /* Products */,
+				A27D0556A4864E8E9478CB2A /* Pods */,
+				BCC693E4517711C304080642 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,44 @@
 		F665495D20FB584B003A391C /* DHBW Seminar App */ = {
 			isa = PBXGroup;
 			children = (
+				F665497B20FB584B003A391C /* Providers */,
+				F665497A20FB584B003A391C /* Models */,
+				F665497920FB584B003A391C /* Fonts */,
 				F665495E20FB584B003A391C /* AppDelegate.swift */,
 				F665496020FB584B003A391C /* ViewController.swift */,
 				F665496220FB584B003A391C /* Main.storyboard */,
 				F665496520FB584B003A391C /* Assets.xcassets */,
 				F665496720FB584B003A391C /* LaunchScreen.storyboard */,
 				F665496A20FB584B003A391C /* Info.plist */,
+				F665497720FB584B003A391C /* TabletUI.storyboard */,
 			);
 			path = "DHBW Seminar App";
+			sourceTree = "<group>";
+		};
+		F665497920FB584B003A391C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F665498220FB584B003A391C /* SF-Pro-Display-Black.otf */,
+				F665498820FB584B003A391C /* SF-Pro-Display-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F665497A20FB584B003A391C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F665498B20FB584B003A391C /* SentimentClassifier.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F665497B20FB584B003A391C /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				F665498D20FB584B003A391C /* SentimentProvider.swift */,
+				F665499820FB584B003A391C /* SummaryProvider.swift */,
+			);
+			path = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F665496D20FB584B003A391C /* Build configuration list for PBXNativeTarget "DHBW Seminar App" */;
 			buildPhases = (
+				88864786FF3A458BD956911A /* [CP] Check Pods Manifest.lock */,
 				F665495720FB584B003A391C /* Sources */,
 				F665495820FB584B003A391C /* Frameworks */,
 				F665495920FB584B003A391C /* Resources */,
+				DA9EA816365842896C740426 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +190,62 @@
 			files = (
 				F665496920FB584B003A391C /* LaunchScreen.storyboard in Resources */,
 				F665496620FB584B003A391C /* Assets.xcassets in Resources */,
+				F665497820FB584B003A391C /* TabletUI.storyboard in Resources */,
 				F665496420FB584B003A391C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		88864786FF3A458BD956911A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DHBW Seminar App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9EA816365842896C740426 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DHBW Seminar App/Pods-DHBW Seminar App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reductio/Reductio.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reductio.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHBW Seminar App/Pods-DHBW Seminar App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F665495720FB584B003A391C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F665498E20FB584B003A391C /* SentimentProvider.swift in Sources */,
 				F665496120FB584B003A391C /* ViewController.swift in Sources */,
 				F665495F20FB584B003A391C /* AppDelegate.swift in Sources */,
+				F665498C20FB584B003A391C /* SentimentClassifier.mlmodel in Sources */,
+				F665499920FB584B003A391C /* SummaryProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +389,15 @@
 		};
 		F665496E20FB584B003A391C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF651C0ECEF04DAE65B64372 /* Pods-DHBW Seminar App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G42264X4W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "DHBW Seminar App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +412,15 @@
 		};
 		F665496F20FB584B003A391C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22293C790A40F793A1C4F7D /* Pods-DHBW Seminar App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G42264X4W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "DHBW Seminar App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

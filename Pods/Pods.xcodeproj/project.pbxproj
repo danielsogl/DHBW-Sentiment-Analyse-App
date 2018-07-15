@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0315606A78251C7CB2952AA2C3C6CBF7 /* TextRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B3DCDE3771A0AACC37BF7C372424A /* TextRank.swift */; };
+		09749F158A4710CA1ABF6C61A06DE95F /* Array+Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669D505F0B661F1C1BC84390794C3D0 /* Array+Combinations.swift */; };
+		0C86D2D8D0B83FA8216689D50C446E84 /* Pods-DHBW Seminar App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F7EFC8368E75D1F1ED761072D01AFD /* Pods-DHBW Seminar App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CADB6825FC1DFF33913436C56682AD4 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9575C64B8C3E81B5F277E9D36C6DABB5 /* Search.swift */; };
+		1C4575123248DC49A350441CB937F2C9 /* Reductio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CC23B1AF7FC2B9E55F0542AE289DD /* Reductio-dummy.m */; };
+		246720476F91A822F6A032B30C27B9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3E308D049E9C0141CE57955E40594D42 /* Stemmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC96E9B267A4C68B8B12EEC9775154 /* Stemmer.swift */; };
+		50BD148B0DEE3730311C3FC3722BD96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		56523D44C6F3324D2DDFF284CC8D721A /* Stopwords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689AE524EC6F4D0DC456DCF52593CBC9 /* Stopwords.swift */; };
+		88DC82C63B9FD495E4B03C5631D5D2B5 /* Pods-DHBW Seminar App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E07FA6AB2A867A8343B53C6D3103B7 /* Pods-DHBW Seminar App-dummy.m */; };
+		98A3340FCF61F534DAB132317EEFB8C6 /* Summarizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDF47ED4A36560683B690FF17E40D8 /* Summarizer.swift */; };
+		BC7A6148BD36CA9B45DBDFF753B6B0CF /* Reductio.h in Headers */ = {isa = PBXBuildFile; fileRef = 232995E9B76973F018F40B23640666AA /* Reductio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D31DD8B2AF8E882BD29707274AEB6F62 /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75764522604CC502B80BE5023F2BD0 /* Keyword.swift */; };
+		DE89F8FAC26419D772CF9FA7DE26507B /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1056824697CBF9C6D30D1F4AB390812 /* Sentence.swift */; };
+		E16BA8596431488712C915D2C13DB038 /* Reductio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07185EE3218E04CC2D4D571F5C1ACCD4 /* Reductio.swift */; };
+		E38D64790B2DA728A32612A3094683CA /* Reductio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1AE3643A19CF01DAA80BC60B210B0F8 /* Reductio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E861CBF7FBFC15C306EB902E1B2749D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40AEE8237232EB081CA0F469407083FD;
+			remoteInfo = Reductio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E07FA6AB2A867A8343B53C6D3103B7 /* Pods-DHBW Seminar App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DHBW Seminar App-dummy.m"; sourceTree = "<group>"; };
+		07185EE3218E04CC2D4D571F5C1ACCD4 /* Reductio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reductio.swift; path = Source/Reductio.swift; sourceTree = "<group>"; };
+		07F7EFC8368E75D1F1ED761072D01AFD /* Pods-DHBW Seminar App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DHBW Seminar App-umbrella.h"; sourceTree = "<group>"; };
+		1AC998A31BDBBF19B6A96CC0078CFB8A /* Reductio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reductio.framework; path = Reductio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2B3DCDE3771A0AACC37BF7C372424A /* TextRank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextRank.swift; path = Source/TextRank.swift; sourceTree = "<group>"; };
+		232995E9B76973F018F40B23640666AA /* Reductio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reductio.h; path = Source/Reductio.h; sourceTree = "<group>"; };
+		3BA5C3339A4F79C076BE075383C3CD8B /* Reductio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reductio.modulemap; sourceTree = "<group>"; };
+		478118B093B54776492922BDC5928C64 /* Pods-DHBW Seminar App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DHBW Seminar App.modulemap"; sourceTree = "<group>"; };
+		4E222822DEA5CB62A4AA0B80318106F3 /* Pods-DHBW Seminar App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHBW Seminar App.debug.xcconfig"; sourceTree = "<group>"; };
+		4F6CC23B1AF7FC2B9E55F0542AE289DD /* Reductio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reductio-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		602BA191387DC072A72D48AEE92E46A0 /* Reductio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reductio-prefix.pch"; sourceTree = "<group>"; };
+		689AE524EC6F4D0DC456DCF52593CBC9 /* Stopwords.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stopwords.swift; path = Source/Stopwords.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9575C64B8C3E81B5F277E9D36C6DABB5 /* Search.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Search.swift; path = Source/Search.swift; sourceTree = "<group>"; };
+		9669D505F0B661F1C1BC84390794C3D0 /* Array+Combinations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Combinations.swift"; path = "Source/Array+Combinations.swift"; sourceTree = "<group>"; };
+		9C393C369158F429A78301C156E29F58 /* Pods-DHBW Seminar App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHBW Seminar App.release.xcconfig"; sourceTree = "<group>"; };
+		A6622F4AC3AAFB680E7300A03764F17D /* Reductio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reductio.xcconfig; sourceTree = "<group>"; };
+		A7DC96E9B267A4C68B8B12EEC9775154 /* Stemmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stemmer.swift; path = Source/Stemmer.swift; sourceTree = "<group>"; };
+		AB16F8671E6600EF2428A6A1BCDBBD54 /* Pods-DHBW Seminar App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DHBW Seminar App-frameworks.sh"; sourceTree = "<group>"; };
+		AD75764522604CC502B80BE5023F2BD0 /* Keyword.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keyword.swift; path = Source/Keyword.swift; sourceTree = "<group>"; };
+		B0F8F99949AB0ADABFCADD17440EDEF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1056824697CBF9C6D30D1F4AB390812 /* Sentence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sentence.swift; path = Source/Sentence.swift; sourceTree = "<group>"; };
+		B1AE3643A19CF01DAA80BC60B210B0F8 /* Reductio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reductio-umbrella.h"; sourceTree = "<group>"; };
+		C0368C07B6C22F0775481F14753452B9 /* Pods-DHBW Seminar App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DHBW Seminar App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C62E824A8A15393504201A6EB8FAD2E3 /* Pods-DHBW Seminar App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DHBW Seminar App-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9EDF47ED4A36560683B690FF17E40D8 /* Summarizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summarizer.swift; path = Source/Summarizer.swift; sourceTree = "<group>"; };
+		EA92C4125433A4F47D15FB072B885E22 /* Pods_DHBW_Seminar_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DHBW_Seminar_App.framework; path = "Pods-DHBW Seminar App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48E039B6DA4CEEDEB02333ED3AE4815 /* Pods-DHBW Seminar App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DHBW Seminar App-resources.sh"; sourceTree = "<group>"; };
+		F6792322D6E2D8E22E601BCC323F11C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D77958464139CE580DA02CCB76A4450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246720476F91A822F6A032B30C27B9B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9658FDB00DD00868BA02B81CED7DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BD148B0DEE3730311C3FC3722BD96C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D2C5B80383E051F36D37A0942C6550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA92C4125433A4F47D15FB072B885E22 /* Pods_DHBW_Seminar_App.framework */,
+				1AC998A31BDBBF19B6A96CC0078CFB8A /* Reductio.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD75B0310F6773E362EE07E9371D380 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F8F99949AB0ADABFCADD17440EDEF2 /* Info.plist */,
+				3BA5C3339A4F79C076BE075383C3CD8B /* Reductio.modulemap */,
+				A6622F4AC3AAFB680E7300A03764F17D /* Reductio.xcconfig */,
+				4F6CC23B1AF7FC2B9E55F0542AE289DD /* Reductio-dummy.m */,
+				602BA191387DC072A72D48AEE92E46A0 /* Reductio-prefix.pch */,
+				B1AE3643A19CF01DAA80BC60B210B0F8 /* Reductio-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reductio";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9F22977F040337950BFA00CCB85EFDB9 /* Pods */,
+				22D2C5B80383E051F36D37A0942C6550 /* Products */,
+				9BD8AE99D7BB824125943B2C163E349E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD8AE99D7BB824125943B2C163E349E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA83A4BA713EA694AD8665D99EA454B2 /* Pods-DHBW Seminar App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F22977F040337950BFA00CCB85EFDB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8FC02749F64E13D9560A22ADBABC639 /* Reductio */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA83A4BA713EA694AD8665D99EA454B2 /* Pods-DHBW Seminar App */ = {
+			isa = PBXGroup;
+			children = (
+				F6792322D6E2D8E22E601BCC323F11C4 /* Info.plist */,
+				478118B093B54776492922BDC5928C64 /* Pods-DHBW Seminar App.modulemap */,
+				C0368C07B6C22F0775481F14753452B9 /* Pods-DHBW Seminar App-acknowledgements.markdown */,
+				C62E824A8A15393504201A6EB8FAD2E3 /* Pods-DHBW Seminar App-acknowledgements.plist */,
+				04E07FA6AB2A867A8343B53C6D3103B7 /* Pods-DHBW Seminar App-dummy.m */,
+				AB16F8671E6600EF2428A6A1BCDBBD54 /* Pods-DHBW Seminar App-frameworks.sh */,
+				F48E039B6DA4CEEDEB02333ED3AE4815 /* Pods-DHBW Seminar App-resources.sh */,
+				07F7EFC8368E75D1F1ED761072D01AFD /* Pods-DHBW Seminar App-umbrella.h */,
+				4E222822DEA5CB62A4AA0B80318106F3 /* Pods-DHBW Seminar App.debug.xcconfig */,
+				9C393C369158F429A78301C156E29F58 /* Pods-DHBW Seminar App.release.xcconfig */,
+			);
+			name = "Pods-DHBW Seminar App";
+			path = "Target Support Files/Pods-DHBW Seminar App";
+			sourceTree = "<group>";
+		};
+		F8FC02749F64E13D9560A22ADBABC639 /* Reductio */ = {
+			isa = PBXGroup;
+			children = (
+				9669D505F0B661F1C1BC84390794C3D0 /* Array+Combinations.swift */,
+				AD75764522604CC502B80BE5023F2BD0 /* Keyword.swift */,
+				232995E9B76973F018F40B23640666AA /* Reductio.h */,
+				07185EE3218E04CC2D4D571F5C1ACCD4 /* Reductio.swift */,
+				9575C64B8C3E81B5F277E9D36C6DABB5 /* Search.swift */,
+				B1056824697CBF9C6D30D1F4AB390812 /* Sentence.swift */,
+				A7DC96E9B267A4C68B8B12EEC9775154 /* Stemmer.swift */,
+				689AE524EC6F4D0DC456DCF52593CBC9 /* Stopwords.swift */,
+				C9EDF47ED4A36560683B690FF17E40D8 /* Summarizer.swift */,
+				1D2B3DCDE3771A0AACC37BF7C372424A /* TextRank.swift */,
+				5CD75B0310F6773E362EE07E9371D380 /* Support Files */,
+			);
+			name = Reductio;
+			path = Reductio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F81AD3C538AF066870B61D08ED3CD49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38D64790B2DA728A32612A3094683CA /* Reductio-umbrella.h in Headers */,
+				BC7A6148BD36CA9B45DBDFF753B6B0CF /* Reductio.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7781CA8B28CC5EE06DFC15A53A13EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C86D2D8D0B83FA8216689D50C446E84 /* Pods-DHBW Seminar App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25D92651320DBAEC7084479684052880 /* Pods-DHBW Seminar App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7937D276AA8B6168FC53EAB11349962F /* Build configuration list for PBXNativeTarget "Pods-DHBW Seminar App" */;
+			buildPhases = (
+				F4D08F42EB91A66BAA5D8BF649966221 /* Sources */,
+				CC9658FDB00DD00868BA02B81CED7DF0 /* Frameworks */,
+				AB7781CA8B28CC5EE06DFC15A53A13EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89FF45C5928CC0B042DF6D4AE23A53FD /* PBXTargetDependency */,
+			);
+			name = "Pods-DHBW Seminar App";
+			productName = "Pods-DHBW Seminar App";
+			productReference = EA92C4125433A4F47D15FB072B885E22 /* Pods_DHBW_Seminar_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40AEE8237232EB081CA0F469407083FD /* Reductio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B8C146202E89E2AD913E0663840A90 /* Build configuration list for PBXNativeTarget "Reductio" */;
+			buildPhases = (
+				6BF1C9024853D0A6ADC561FA570745BD /* Sources */,
+				0D77958464139CE580DA02CCB76A4450 /* Frameworks */,
+				2F81AD3C538AF066870B61D08ED3CD49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reductio;
+			productName = Reductio;
+			productReference = 1AC998A31BDBBF19B6A96CC0078CFB8A /* Reductio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 22D2C5B80383E051F36D37A0942C6550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25D92651320DBAEC7084479684052880 /* Pods-DHBW Seminar App */,
+				40AEE8237232EB081CA0F469407083FD /* Reductio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF1C9024853D0A6ADC561FA570745BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09749F158A4710CA1ABF6C61A06DE95F /* Array+Combinations.swift in Sources */,
+				D31DD8B2AF8E882BD29707274AEB6F62 /* Keyword.swift in Sources */,
+				1C4575123248DC49A350441CB937F2C9 /* Reductio-dummy.m in Sources */,
+				E16BA8596431488712C915D2C13DB038 /* Reductio.swift in Sources */,
+				0CADB6825FC1DFF33913436C56682AD4 /* Search.swift in Sources */,
+				DE89F8FAC26419D772CF9FA7DE26507B /* Sentence.swift in Sources */,
+				3E308D049E9C0141CE57955E40594D42 /* Stemmer.swift in Sources */,
+				56523D44C6F3324D2DDFF284CC8D721A /* Stopwords.swift in Sources */,
+				98A3340FCF61F534DAB132317EEFB8C6 /* Summarizer.swift in Sources */,
+				0315606A78251C7CB2952AA2C3C6CBF7 /* TextRank.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D08F42EB91A66BAA5D8BF649966221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DC82C63B9FD495E4B03C5631D5D2B5 /* Pods-DHBW Seminar App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89FF45C5928CC0B042DF6D4AE23A53FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reductio;
+			target = 40AEE8237232EB081CA0F469407083FD /* Reductio */;
+			targetProxy = 1E861CBF7FBFC15C306EB902E1B2749D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		709800E22A1CDFFFFAA64FD86252B4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6622F4AC3AAFB680E7300A03764F17D /* Reductio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reductio/Reductio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reductio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Reductio/Reductio.modulemap";
+				PRODUCT_MODULE_NAME = Reductio;
+				PRODUCT_NAME = Reductio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A73951356A6969A4C28A7332E5BDF6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6622F4AC3AAFB680E7300A03764F17D /* Reductio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reductio/Reductio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reductio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Reductio/Reductio.modulemap";
+				PRODUCT_MODULE_NAME = Reductio;
+				PRODUCT_NAME = Reductio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B121B5893CA455F4EF15E3E226F60A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E222822DEA5CB62A4AA0B80318106F3 /* Pods-DHBW Seminar App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DHBW Seminar App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DHBW Seminar App/Pods-DHBW Seminar App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F8B022CDF3F784334581EA97C676AD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C393C369158F429A78301C156E29F58 /* Pods-DHBW Seminar App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DHBW Seminar App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DHBW Seminar App/Pods-DHBW Seminar App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B8C146202E89E2AD913E0663840A90 /* Build configuration list for PBXNativeTarget "Reductio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709800E22A1CDFFFFAA64FD86252B4BE /* Debug */,
+				A73951356A6969A4C28A7332E5BDF6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7937D276AA8B6168FC53EAB11349962F /* Build configuration list for PBXNativeTarget "Pods-DHBW Seminar App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B121B5893CA455F4EF15E3E226F60A5A /* Debug */,
+				F8B022CDF3F784334581EA97C676AD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
