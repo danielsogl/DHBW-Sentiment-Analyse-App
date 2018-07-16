@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -39,7 +39,7 @@
 		04E07FA6AB2A867A8343B53C6D3103B7 /* Pods-DHBW Seminar App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DHBW Seminar App-dummy.m"; sourceTree = "<group>"; };
 		07185EE3218E04CC2D4D571F5C1ACCD4 /* Reductio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reductio.swift; path = Source/Reductio.swift; sourceTree = "<group>"; };
 		07F7EFC8368E75D1F1ED761072D01AFD /* Pods-DHBW Seminar App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DHBW Seminar App-umbrella.h"; sourceTree = "<group>"; };
-		1AC998A31BDBBF19B6A96CC0078CFB8A /* Reductio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reductio.framework; path = Reductio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC998A31BDBBF19B6A96CC0078CFB8A /* Reductio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reductio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D2B3DCDE3771A0AACC37BF7C372424A /* TextRank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextRank.swift; path = Source/TextRank.swift; sourceTree = "<group>"; };
 		232995E9B76973F018F40B23640666AA /* Reductio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reductio.h; path = Source/Reductio.h; sourceTree = "<group>"; };
 		3BA5C3339A4F79C076BE075383C3CD8B /* Reductio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reductio.modulemap; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		602BA191387DC072A72D48AEE92E46A0 /* Reductio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reductio-prefix.pch"; sourceTree = "<group>"; };
 		689AE524EC6F4D0DC456DCF52593CBC9 /* Stopwords.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stopwords.swift; path = Source/Stopwords.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9575C64B8C3E81B5F277E9D36C6DABB5 /* Search.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Search.swift; path = Source/Search.swift; sourceTree = "<group>"; };
 		9669D505F0B661F1C1BC84390794C3D0 /* Array+Combinations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Combinations.swift"; path = "Source/Array+Combinations.swift"; sourceTree = "<group>"; };
 		9C393C369158F429A78301C156E29F58 /* Pods-DHBW Seminar App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHBW Seminar App.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		C0368C07B6C22F0775481F14753452B9 /* Pods-DHBW Seminar App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DHBW Seminar App-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C62E824A8A15393504201A6EB8FAD2E3 /* Pods-DHBW Seminar App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DHBW Seminar App-acknowledgements.plist"; sourceTree = "<group>"; };
 		C9EDF47ED4A36560683B690FF17E40D8 /* Summarizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summarizer.swift; path = Source/Summarizer.swift; sourceTree = "<group>"; };
-		EA92C4125433A4F47D15FB072B885E22 /* Pods_DHBW_Seminar_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DHBW_Seminar_App.framework; path = "Pods-DHBW Seminar App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA92C4125433A4F47D15FB072B885E22 /* Pods_DHBW_Seminar_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHBW_Seminar_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48E039B6DA4CEEDEB02333ED3AE4815 /* Pods-DHBW Seminar App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DHBW Seminar App-resources.sh"; sourceTree = "<group>"; };
 		F6792322D6E2D8E22E601BCC323F11C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,7 +187,6 @@
 				1D2B3DCDE3771A0AACC37BF7C372424A /* TextRank.swift */,
 				5CD75B0310F6773E362EE07E9371D380 /* Support Files */,
 			);
-			name = Reductio;
 			path = Reductio;
 			sourceTree = "<group>";
 		};
@@ -256,7 +255,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -394,11 +393,7 @@
 				INFOPLIST_FILE = "Target Support Files/Reductio/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Reductio/Reductio.modulemap";
 				PRODUCT_MODULE_NAME = Reductio;
 				PRODUCT_NAME = Reductio;
@@ -430,11 +425,7 @@
 				INFOPLIST_FILE = "Target Support Files/Reductio/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Reductio/Reductio.modulemap";
 				PRODUCT_MODULE_NAME = Reductio;
 				PRODUCT_NAME = Reductio;
@@ -468,11 +459,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-DHBW Seminar App/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DHBW Seminar App/Pods-DHBW Seminar App.modulemap";
 				OTHER_LDFLAGS = "";
@@ -544,6 +531,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -566,11 +554,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-DHBW Seminar App/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DHBW Seminar App/Pods-DHBW Seminar App.modulemap";
 				OTHER_LDFLAGS = "";
